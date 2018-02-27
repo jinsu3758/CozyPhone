@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jogus.scroll">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon2"
+        android:supportsRtl="true"
+        android:label="코지폰"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".MainActivity"
+
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.HOME"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".AppInfoActivity"
+            android:label="추가/제거"
+            android:exported="false"
+            android:launchMode="singleInstance"
+            />
+
+        <uses-permission android:name="android.permission.CALL_PHONE" />
+        <uses-permission android:name="android.permission.DIAL_PHONE" />
+
+
+
+
+
+    </application>
+
+</manifest>
