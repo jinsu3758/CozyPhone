@@ -2,6 +2,9 @@
 ### Introduction
 노년층뿐만 아니라 중장년층을 위한 안드로이드 핸드폰 런처서비스
 
+### Members
+3명(안드로이드 개발자 2명,  발표자 1명)
+
 ### Development Environment
 - OS : Android , Windows
 
