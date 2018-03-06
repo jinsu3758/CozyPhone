@@ -7,7 +7,7 @@
 
 ### Development Environment
 - OS : Android , Windows
-
+- Android Application : Java, Android Studio
 ### Product Description
 중장년층에게 다루기 어려운 스마트폰을 간소화하고 스마트폰의 편리한 기능들을 최대한 활용할 수 있게 인터페이스를
 구축한 런처서비스
